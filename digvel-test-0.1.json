@@ -1,0 +1,118 @@
+{
+    "type": "bundle",
+    "id": "bundle--2d6cfa0a-1f93-494f-b400-4ae4e012eb9a",
+    "objects": [
+        {
+            "modified": "2024-06-18T09:59:54.422Z",
+            "name": "DigVel Test",
+            "description": "Test empty",
+            "x_mitre_contents": [
+                {
+                    "object_ref": "x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5",
+                    "object_modified": "2024-01-29T09:55:56.212Z"
+                },
+                {
+                    "object_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+                    "object_modified": "2017-06-01T00:00:00.000Z"
+                },
+                {
+                    "object_ref": "identity--673c18df-1ed4-4f6b-bec7-16a0939513ff",
+                    "object_modified": "2023-10-10T16:04:38.865Z"
+                },
+                {
+                    "object_ref": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+                    "object_modified": "2024-06-18T09:59:51.365Z"
+                }
+            ],
+            "x_mitre_deprecated": false,
+            "x_mitre_version": "0.1",
+            "type": "x-mitre-collection",
+            "spec_version": "2.1",
+            "id": "x-mitre-collection--157746f3-8a14-420d-a610-9868fc644604",
+            "created": "2024-06-18T09:59:54.422Z",
+            "revoked": false,
+            "external_references": [],
+            "object_marking_refs": [],
+            "x_mitre_domains": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "created_by_ref": "identity--673c18df-1ed4-4f6b-bec7-16a0939513ff",
+            "x_mitre_modified_by_ref": "identity--673c18df-1ed4-4f6b-bec7-16a0939513ff"
+        },
+        {
+            "modified": "2024-01-29T09:55:56.212Z",
+            "name": "Виконання",
+            "description": "Зловмисники намагаються запустити шкідливий код.\n\nВиконання складається з методів, які призводять до запуску на локальній або віддаленій системі коду, контрольованого зловмисником. Техніки запуску шкідливого коду часто поєднуються з техніками з усіх інших тактик для досягнення масштабніших цілей, як-от дослідження мережі або викрадення даних. Наприклад, зловмисник може використовувати інструмент віддаленого доступу для запуску скрипту PowerShell, який виявляє віддалену систему.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_contributors": [],
+            "x_mitre_shortname": "виконання",
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0002",
+                    "external_id": "TA0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "x_mitre_modified_by_ref": "identity--673c18df-1ed4-4f6b-bec7-16a0939513ff"
+        },
+        {
+            "modified": "2017-06-01T00:00:00.000Z",
+            "name": "The MITRE Corporation",
+            "identity_class": "organization",
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "2.1.0",
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "created": "2017-06-01T00:00:00.000Z",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "roles": [],
+            "sectors": [],
+            "external_references": []
+        },
+        {
+            "modified": "2023-10-10T16:04:38.865Z",
+            "name": "Placeholder Organization Identity",
+            "description": "This is a placeholder organization identity. Please edit it or replace it with another identity.",
+            "identity_class": "organization",
+            "type": "identity",
+            "spec_version": "2.1",
+            "created": "2023-10-10T16:04:38.865Z",
+            "roles": [],
+            "sectors": [],
+            "external_references": [],
+            "object_marking_refs": [],
+            "x_mitre_attack_spec_version": "3.1.0",
+            "id": "identity--673c18df-1ed4-4f6b-bec7-16a0939513ff"
+        },
+        {
+            "definition": {
+                "statement": "Copyright 2015-2023, The MITRE Corporation. MITRE ATT&CK and ATT&CK are registered trademarks of The MITRE Corporation."
+            },
+            "definition_type": "statement",
+            "x_mitre_attack_spec_version": "2.1.0",
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168",
+            "created": "2017-06-01T00:00:00.000Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [],
+            "object_marking_refs": []
+        }
+    ]
+}
